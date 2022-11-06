@@ -27,3 +27,11 @@ a{
   font-size: 96px;
   color: white;
 }
+@mixin tittle2{
+  font-size: 16px;
+  color: white;
+}
+@mixin base{
+  font-size: 35px;
+  color: white;
+}
