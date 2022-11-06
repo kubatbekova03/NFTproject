@@ -9,3 +9,21 @@
 a{
   text-decoration: none;
 }
+@mixin input {
+  background: transparent;
+  padding: 0 10px;
+  border-radius: 41px;
+  border: 1px solid white;
+  color: white;
+  margin: 0 0 0 80px;
+  width: 340px;
+  height: 51px;
+}
+@mixin align {
+  display: flex;
+  align-items: center;
+}
+@mixin tittle{
+  font-size: 96px;
+  color: white;
+}

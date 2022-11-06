@@ -1,1 +1,53 @@
 @import "mixin";
+#header {
+  background: #26272B54;
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+
+  .searcher {
+    @include align;
+
+    &--star {
+      position: absolute;
+      padding: 0 0 12px 130px;
+    }
+
+    &--tittle {
+      color: white;
+      font-size: 30px;
+
+      span {
+        font-size: 40px;
+      }
+    }
+
+    &--input {
+      @include input
+    }
+
+    &--search {
+      color: white;
+      position: absolute;
+      padding: 0 0 0 540px;
+    }
+
+    &--menu {
+      padding: 0 100px 0 150px;
+      display: flex;
+      justify-content: space-between;
+      width: 25%;
+
+      &__a {
+        color: white;
+      }
+    }
+
+    &--icon {
+      color: white;
+      padding: 0 0 0 20px;
+    }
+  }
+}
