@@ -35,3 +35,12 @@ a{
   font-size: 35px;
   color: white;
 }
+@mixin white{
+  font-size: 20px;
+  color: #F1B864;
+}
+@mixin tittle3{
+  font-size: 32px;
+  color: white;
+  text-align: center;
+}
