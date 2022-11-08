@@ -76,6 +76,15 @@ flex-direction: column;
   border-radius: 39px;
   transform: rotate(-90deg);
 }
+@mixin stuff {
+  color: #F1B864;
+  font-size: 20px;
+}
+@mixin fames{
+  color: white;
+  font-size: 45px;
+}
+
 @mixin arond{
   display: flex;
   justify-content: space-around;
@@ -111,6 +120,7 @@ $color: white;
 @mixin centr{
   display: flex;
   justify-content: center;
+
 }
 @mixin grid{
   display: grid;

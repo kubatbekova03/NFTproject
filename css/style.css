@@ -337,7 +337,7 @@ a {
 }
 #monkeys .monkeys--discover__fames {
   color: white;
-  font-size: 32px;
+  font-size: 45px;
   display: flex;
   align-self: center;
   flex-direction: column;
@@ -445,6 +445,145 @@ a {
   position: absolute;
   color: white;
   font-size: 20px;
+}
+
+#bored {
+  background: #15141A;
+  padding: 0 0 10% 0;
+  font-family: "Inter", sans-serif;
+}
+#bored .bored--moro {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#bored .bored--moro__first {
+  color: #F1B864;
+  font-size: 20px;
+}
+#bored .bored--moro__top {
+  color: white;
+  font-size: 45px;
+}
+#bored .bored--moro__selec {
+  font-size: 45px;
+  background: transparent;
+  color: #F7A659;
+  border: none;
+  outline: none;
+}
+#bored .bored--moro__selec--opti {
+  font-weight: 500;
+  font-size: 20px;
+  background: none;
+  color: #F7A659;
+  border: none;
+  outline: none;
+}
+#bored .bored--ape {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+#bored .bored--ape__monkey {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 15% 0 0 0;
+  width: 411px;
+  height: 91px;
+  border: 1px solid #BCBCBC;
+  border-radius: 13px;
+  color: white;
+}
+#bored .bored--ape__monkey--yach {
+  margin: 0 0 0 38px;
+}
+#bored .bored--ape__monkey--frog {
+  display: flex;
+  margin: 0 0 0 -13px;
+}
+#bored .bored--ape__monkey--frog__discover {
+  color: #DC9752;
+}
+#bored .bored--ape__monkey--number {
+  font-size: 25px;
+}
+#bored .bored--ape__monkey--imeg {
+  width: 25px;
+}
+#bored .bored--ape__monkey--img {
+  position: absolute;
+  margin: 0 13% 3% 0;
+}
+#bored .bored--ape__monkey--imag {
+  position: absolute;
+  margin: 3% 13% 0 0;
+}
+#bored .bored--ape__monkey--yach__circle {
+  font-size: 18px;
+}
+#bored .bored--ape__monkey--yach__floor {
+  font-size: 16px;
+}
+#bored .bored--ape__monkey--proses {
+  color: #21D605;
+  font-size: 14px;
+  margin: 0 0 15% 0;
+}
+#bored .bored--sell {
+  display: flex;
+  justify-content: center;
+  margin: 10% 0 0 0;
+}
+#bored .bored--sell__sector {
+  position: absolute;
+  width: 82px;
+  height: 48px;
+  border: 1px solid #FFFFFF;
+  border-radius: 39px;
+  transform: rotate(-90deg);
+  margin: -35px 60% 0 0;
+}
+#bored .bored--sell__view {
+  background: #15141A;
+  color: white;
+  width: 210px;
+  height: 64px;
+  border: 1px solid #FFFFFF;
+  border-radius: 36px;
+}
+#bored .bored--sell__shrift {
+  margin: 5% 0 0 50%;
+  font-size: 50px;
+  color: white;
+  position: absolute;
+  transform: rotate(45.95deg);
+}
+#bored .bored--creator {
+  margin: 15% 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+#bored .bored--creator__line {
+  position: absolute;
+  width: 199px;
+  height: 47px;
+  border: 1px solid #A7A7A7;
+  border-radius: 39px;
+  margin: 0 60% 0 10%;
+}
+#bored .bored--creator__first {
+  color: #F1B864;
+  font-size: 20px;
+}
+#bored .bored--creator__liner {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: solid 2px #FFFFFF;
+  margin: 5% 0 0 65%;
 }
 
 /*# sourceMappingURL=style.css.map */
