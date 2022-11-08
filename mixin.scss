@@ -1,14 +1,17 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
-.container{
+
+.container {
   margin: 0 auto;
   width: 90%;
 }
-a{
+
+a {
   text-decoration: none;
 }
+
 @mixin input {
   background: transparent;
   padding: 0 10px;
@@ -19,11 +22,13 @@ a{
   width: 340px;
   height: 51px;
 }
+
 @mixin align {
   display: flex;
   align-items: center;
 }
-@mixin tittle{
+
+@mixin tittle {
   font-size: 96px;
   color: white;
 }
@@ -73,19 +78,97 @@ a{
   padding: 0 0 0 200px;
 }
 @mixin tittle2{
+
+@mixin tittle2 {
   font-size: 16px;
   color: white;
 }
-@mixin base{
+
+@mixin base {
   font-size: 35px;
   color: white;
 }
-@mixin white{
+
+@mixin white {
   font-size: 20px;
   color: #F1B864;
 }
-@mixin tittle3{
+
+@mixin tittle3 {
   font-size: 32px;
   color: white;
   text-align: center;
+}
+
+@mixin star {
+  font-size: 35px;
+  color: #FFFFFF;
+}
+
+@mixin circles {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+@mixin flex{
+  display: flex;
+  align-self: center;
+flex-direction: column;
+}
+@mixin as {
+  width: 124px;
+  height: 44px;
+  border: 1px solid #FFFFFF;
+  border-radius: 39px;
+  transform: rotate(-90deg);
+}
+@mixin arond{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+@mixin btnt{
+  background: #15141A;
+  border: 1px solid #FFFFFF;
+}
+@mixin btnns{
+  color: white;
+  font-size: 20px;
+}
+@mixin btnse{
+  width: 161px;
+  height: 63px;
+  background: #FE8B46;
+  border: 1px solid #FFFFFF;
+  border-radius: 38px;
+}
+@mixin between{
+  display: flex;
+  justify-content: space-between;
+}
+@mixin moro{
+  width: 311px;
+  height: 468px;
+  border: 1px solid #A6A6A6;
+  border-radius: 26px;
+}
+$color: white;
+
+@mixin centr{
+  display: flex;
+  justify-content: center;
+}
+@mixin grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}@mixin moro{
+  width: 311px;
+  height: 468px;
+  border: 1px solid #A6A6A6;
+  border-radius: 26px;
+}
+@mixin just {
+  display: flex;
+  justify-content: center;
+
 }

@@ -511,6 +511,166 @@ a {
   font-family: "Roboto", sans-serif;
   color: white;
   margin: 0 10px;
+=======
+#monkeys {
+  background: #15141A;
+  padding: 0 0 10% 0;
+  font-family: "Inter", sans-serif;
 }
-
-/*# sourceMappingURL=style.css.map */
+#monkeys .monkeys--item {
+  padding: 0 0 10% 0;
+}
+#monkeys .monkeys--item__as {
+  position: absolute;
+  margin: 5% 0 0 5%;
+  width: 124px;
+  height: 44px;
+  border: 1px solid #FFFFFF;
+  border-radius: 39px;
+  transform: rotate(-90deg);
+}
+#monkeys .monkeys--item__star {
+  position: absolute;
+  margin: 0 0 0 30%;
+  font-size: 35px;
+  color: #FFFFFF;
+}
+#monkeys .monkeys--item__long {
+  position: absolute;
+  margin: 0 0 0 950px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: solid 2px #F4BF00;
+}
+#monkeys .monkeys--item__block {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: solid 2px #FE67EF;
+  margin: 5% 0 0 80%;
+}
+#monkeys .monkeys--discover {
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+}
+#monkeys .monkeys--discover__stuff {
+  color: #F1B864;
+  font-size: 20px;
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+}
+#monkeys .monkeys--discover__fames {
+  color: white;
+  font-size: 32px;
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+}
+#monkeys .monkeys--btn {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0 100px 0;
+}
+#monkeys .monkeys--btn__btnt {
+  color: white;
+  font-size: 20px;
+  background: #15141A;
+  border: 1px solid #FFFFFF;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 231px;
+  height: 58px;
+  border-radius: 14px;
+}
+#monkeys .monkeys--btn__btnt:hover {
+  background: #FE8B46;
+  color: #15141A;
+  width: 220px;
+  height: 80px;
+}
+#monkeys .monkeys--btn__btns {
+  width: 161px;
+  height: 63px;
+  background: #FE8B46;
+  border: 1px solid #FFFFFF;
+  border-radius: 38px;
+  color: white;
+  font-size: 20px;
+}
+#monkeys .monkeys--btn__btns:hover {
+  background: #15141A;
+  color: #FE8B46;
+  width: 220px;
+  height: 80px;
+}
+#monkeys .monkeys--clone {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+#monkeys .monkeys--clone__moro {
+  margin: 5% 0 5% 0;
+  color: white;
+  width: 311px;
+  height: 468px;
+  border: 1px solid #A6A6A6;
+  border-radius: 26px;
+}
+#monkeys .monkeys--clone__moro--bored {
+  display: flex;
+  justify-content: space-between;
+}
+#monkeys .monkeys--clone__moro--bored__ape {
+  display: flex;
+  width: 70%;
+}
+#monkeys .monkeys--clone__moro--bored__ape--image {
+  margin: 0 0 0 8%;
+}
+#monkeys .monkeys--clone__moro--bored__price--number {
+  color: #FEAE51;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+#monkeys .monkeys--clone__moro--line {
+  width: 90%;
+  margin: 15% 0 0 5%;
+  border: 1px solid #A0A0A0;
+}
+#monkeys .monkeys--clone__moro--img {
+  padding: 13px 0 0 13px;
+}
+#monkeys .monkeys--clone__moro--diamonds {
+  margin: 5% 2% 0 10%;
+  display: flex;
+  justify-content: space-between;
+}
+#monkeys .monkeys--clone__moro--diamonds__hot {
+  font-size: 17px;
+  display: flex;
+}
+#monkeys .monkeys--btnEnd {
+  display: flex;
+  justify-content: center;
+  margin: 5% 0 0 0;
+}
+#monkeys .monkeys--btnEnd__btnl {
+  background: #15141A;
+  border: 1px solid #FFFFFF;
+  width: 161px;
+  height: 46px;
+  border-radius: 36px;
+  color: white;
+  font-size: 20px;
+}
+#monkeys .monkeys--btnEnd__star {
+  padding: 10% 70% 0 0;
+  position: absolute;
+  color: white;
+  font-size: 20px;
+}

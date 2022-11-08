@@ -1,278 +1,342 @@
 @media (max-width: 1200px) {
-  #discover{
-    .discover{
-      &--tittle1{
+  #discover {
+    .discover {
+      &--tittle1 {
         padding: 20px 0 0 130px;
       }
-      &--tittle2{
-        &__sell{
+
+      &--tittle2 {
+        &__sell {
           font-size: 80px;
         }
       }
-      &--img2{
+
+      &--img2 {
         padding: 0 0 0 330px;
       }
-      &--img3{
+
+      &--img3 {
         padding: 40px 0 0 500px;
       }
-      &--rectangle8{
+
+      &--rectangle8 {
         padding: 400px 0 0 210px;
       }
-      &--rectangle7{
+
+      &--rectangle7 {
         padding: 260px 0 0 80px;
       }
-      &--rectangle{
+
+      &--rectangle {
         padding: 0 0 0 990px;
       }
-      &--img4{
+
+      &--img4 {
         margin: -450px 0 0 1020px;
       }
     }
   }
 }
+
 @media (max-width: 1024px) {
-  #discover{
-    .discover{
-      &--img3{
+  #discover {
+    .discover {
+      &--img3 {
         padding: 40px 0 0 380px;
       }
-      &--rectangle7{
+
+      &--rectangle7 {
         padding: 260px 0 0 30px;
       }
-      &--rectangle8{
+
+      &--rectangle8 {
         padding: 400px 0 0 150px;
       }
-      &--img2{
+
+      &--img2 {
         padding: 0 0 0 255px;
       }
-      &--tittle1{
-        &__cover{
+
+      &--tittle1 {
+        &__cover {
           font-size: 65px;
         }
-        &__collect{
+
+        &__collect {
           font-size: 65px;
         }
       }
-      &--remark{
+
+      &--remark {
         font-size: 65px;
       }
-      &--tittle2{
+
+      &--tittle2 {
         padding: 20px 0 0 220px;
-        &__sell{
+
+        &__sell {
           font-size: 55px;
         }
-        &__img{
+
+        &__img {
           width: 250px;
           height: 60px;
         }
       }
-      &--star4{
+
+      &--star4 {
         margin: -40px 0 0 185px;
       }
-      &--star2{
+
+      &--star2 {
         padding: 20px 0 0 90px;
       }
-      &--rectangle{
+
+      &--rectangle {
         padding: 0 0 0 800px;
       }
-      &--star3{
+
+      &--star3 {
         margin: -100px 0 0 900px;
       }
-      &--img4{
+
+      &--img4 {
         margin: -450px 0 0 875px;
       }
-      &--sponsors{
-        &__base{
+
+      &--sponsors {
+        &__base {
           font-size: 30px;
         }
-        &__bin{
-          &--binance{
+
+        &__bin {
+          &--binance {
             font-size: 30px;
           }
         }
-        &__revolut{
+
+        &__revolut {
           font-size: 30px;
           margin: 0 -30px 0 20px;
         }
-        &__trans{
+
+        &__trans {
           padding: 0 20px 0 0;
-          &--tittle{
+
+          &--tittle {
             font-size: 30px;
           }
         }
-        &__meta{
-          &--metamask{
+
+        &__meta {
+          &--metamask {
             font-size: 30px;
           }
         }
       }
-      &--images{
-        &__img{
+
+      &--images {
+        &__img {
           width: 200px;
           height: 30px;
         }
       }
     }
   }
-  #slider{
-    .collection{
-      .swiper-slide{
-        &__street{
+  #slider {
+    .collection {
+      .swiper-slide {
+        &__street {
           font-size: 25px;
           padding: 200px 0 0 0;
         }
-        &__tittle{
+
+        &__tittle {
           font-size: 14px;
           padding: 280px 0 0 0;
         }
-        &__btn{
+
+        &__btn {
           margin: 340px 0 0 180px;
         }
       }
     }
   }
 }
+
 @media (max-width: 992px) {
-  #discover{
-    .discover{
-      &--img4{
+  #discover {
+    .discover {
+      &--img4 {
         margin: -450px 0 0 840px;
       }
     }
   }
 }
+
 @media (max-width: 768px) {
-  #header{
-    .searcher{
-      &--tittle{
+  #header {
+    .searcher {
+      &--tittle {
         font-size: 22px;
-        span{
+
+        span {
           font-size: 30px;
         }
       }
-      &--star{
+
+      &--star {
         padding: 0 0 12px 100px;
       }
-      &--input{
+
+      &--input {
         padding: 0 20px;
       }
-      &--search{
+
+      &--search {
         padding: 0 0 0 333px;
       }
-      &--menu{
+
+      &--menu {
         padding: 0 35px 0 15px;
-        &__a{
+
+        &__a {
           padding: 0 7px;
           font-size: 12px;
         }
       }
     }
   }
-  #discover{
-    .discover{
-      &--star5{
+  #discover {
+    .discover {
+      &--star5 {
         padding: 80px 0 0 270px;
       }
-      &--sponsors{
+
+      &--sponsors {
         padding: 30px 0 0 0;
-        &__base{
+
+        &__base {
           font-size: 20px;
         }
-        &__bin{
-          &--binance{
+
+        &__bin {
+          &--binance {
             font-size: 20px;
           }
         }
-        &__revolut{
+
+        &__revolut {
           font-size: 20px;
         }
-        &__trans{
-          &--tittle{
+
+        &__trans {
+          &--tittle {
             font-size: 20px;
           }
         }
-        &__meta{
-          &--metamask{
+
+        &__meta {
+          &--metamask {
             font-size: 20px;
           }
         }
       }
-      &--images{
-        &__img{
+
+      &--images {
+        &__img {
           width: 170px;
           height: 22px;
         }
       }
-      &--img2{
+
+      &--img2 {
         padding: 0 0 0 170px;
         width: 320px;
         height: 490px;
       }
-      &--img3{
+
+      &--img3 {
         padding: 18px 0 0 210px;
         width: 320px;
         height: 450px;
       }
-      &--rectangle7{
+
+      &--rectangle7 {
         padding: 100px 0 0 10px;
       }
-      &--rectangle8{
+
+      &--rectangle8 {
         display: none;
       }
-      &--img4{
+
+      &--img4 {
         margin: -450px 0 0 600px;
       }
-      &--star3{
+
+      &--star3 {
         margin: -100px 0 0 650px;
       }
-      &--rectangle{
+
+      &--rectangle {
         padding: 0 0 0 600px;
       }
-      &--remark{
+
+      &--remark {
         font-size: 42px;
       }
-      &--star4{
-      margin: -40px 0 0 160px
-    }
-      &--star1{
+
+      &--star4 {
+        margin: -40px 0 0 160px
+      }
+
+      &--star1 {
         padding: 0 0 0 580px;
       }
-      &--tittle1{
-        &__cover{
+
+      &--tittle1 {
+        &__cover {
           font-size: 42px;
         }
-        &__collect{
+
+        &__collect {
           font-size: 42px;
         }
-        &__img{
+
+        &__img {
           width: 150px;
           height: 55px;
         }
       }
-      &--tittle2{
+
+      &--tittle2 {
         padding: 20px 0 0 175px;
-        &__sell{
+
+        &__sell {
           font-size: 38px;
         }
-        &__img{
+
+        &__img {
           width: 180px;
           height: 45px;
         }
       }
     }
   }
-  #slider{
-    .collection{
-      .swiper-slide{
-        &__street{
+  #slider {
+    .collection {
+      .swiper-slide {
+        &__street {
           font-size: 20px;
           padding: 150px 0 0 0;
         }
-        &__tittle{
+
+        &__tittle {
           font-size: 10px;
           padding: 200px 0 0 0;
         }
-        &__btn{
+
+        &__btn {
           margin: 250px 0 0 140px;
           padding: 3px 12px;
         }
@@ -280,27 +344,207 @@
     }
   }
 }
-@media (max-width: 576px) {
 
+@media (max-width: 576px) {
+  #header {
+    .searcher {
+      &--tittle {
+        font-size: 16px;
+        font-weight: 100;
+
+        span {
+          font-size: 20px;
+        }
+      }
+
+      &--star {
+        padding: 0 0 12px 70px;
+      }
+
+      &--input {
+        margin: 0 0 0 39px;
+        width: 110px;
+        height: 30px;
+      }
+
+      &--search {
+        padding: 0 0 0 232px;
+      }
+
+      &--menu {
+        &__a {
+          padding: 0 5px;
+          font-size: 11px;
+        }
+      }
+    }
+  }
+  #discover {
+    .discover {
+      &--tittle {
+        font-size: 16px;
+      }
+
+      &--star1 {
+        padding: 0 0 0 480px;
+      }
+
+      &--tittle1 {
+        padding: 20px 0 0 28px;
+      }
+
+      &--star2 {
+        padding: 0 0 0 50px;
+      }
+
+      &--tittle2 {
+        padding: 20px 0 0 130px;
+
+        &__sell {
+          font-size: 30px;
+        }
+      }
+
+      &--star4 {
+        margin: -40px 0 0 100px;
+      }
+
+      &--star3 {
+        margin: -50px 0 0 500px;
+      }
+
+      &--remark {
+        font-size: 40px;
+        padding: 10px 0 0 0;
+      }
+
+      &--rectangle {
+        display: none;
+      }
+
+      &--img4 {
+        display: none;
+      }
+
+      &--rectangle7 {
+        display: none;
+      }
+
+      &--star {
+        display: none;
+      }
+
+      &--find {
+        font-size: 14px;
+      }
+
+      &--img2 {
+        width: 270px;
+        height: 450px;
+        padding: 0 0 0 125px;
+      }
+
+      &--img3 {
+        width: 275px;
+        height: 410px;
+        padding: 18px 0 0 170px;
+      }
+
+      &--sponsors {
+        padding: 50px 0 0 0;
+
+        &__base {
+          font-size: 16px;
+        }
+
+        &__bin {
+          &--binance {
+            font-size: 16px;
+          }
+        }
+
+        &__revolut {
+          font-size: 16px;
+        }
+
+        &__trans {
+          padding: 0 10px 0 0;
+
+          &--tittle {
+            font-size: 16px;
+          }
+        }
+
+        &__meta {
+          &--img {
+            width: 30px;
+            height: 30px;
+          }
+
+          &--metamask {
+            font-size: 16px;
+          }
+        }
+      }
+
+      &--images {
+        &__img {
+          width: 162px;
+          height: 17px;
+        }
+      }
+
+      &--star5 {
+        display: none;
+      }
+    }
+  }
+  #slider {
+    .collection {
+      .swiper-slide {
+        &__street {
+          font-size: 17px;
+          padding: 100px 0 0 0;
+        }
+
+        &__tittle {
+          font-size: 8px;
+          padding: 140px 0 0 0;
+        }
+
+        &__btn {
+          margin: 185px 0 0 100px;
+          padding: 1px 8px;
+        }
+      }
+    }
+  }
 }
+
 @media (max-width: 450px) {
 
 }
+
 @media (max-width: 414px) {
 
 }
+
 @media (max-width: 400px) {
 
 }
+
 @media (max-width: 380px) {
 
 }
+
 @media (max-width: 375px) {
 
 }
+
 @media (max-width: 360px) {
 
 }
+
 @media (max-width: 320px) {
 
 }

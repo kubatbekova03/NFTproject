@@ -241,26 +241,32 @@
 
   }
 }
+
 #discover {
   background: #15141A;
   padding: 150px 0 100px 0;
+
   .discover {
     &--tittle {
       font-size: 20px;
       color: #EEB563;
     }
-    &--star1{
+
+    &--star1 {
       position: absolute;
       padding: 0 0 0 870px;
     }
-    &--star2{
+
+    &--star2 {
       position: absolute;
       padding: 20px 0 0 160px;
     }
-    &--star4{
+
+    &--star4 {
       position: absolute;
       margin: -40px 0 0 220px;
     }
+
     &--tittle1 {
       padding: 20px 0 0 190px;
       @include align;
@@ -279,6 +285,7 @@
         @include tittle
       }
     }
+
     &--tittle2 {
       @include align;
       padding: 0 0 0 270px;
@@ -289,106 +296,133 @@
         @include tittle
       }
     }
-    &--star3{
+
+    &--star3 {
       position: absolute;
       margin: -100px 0 0 970px;
     }
-    &--remark{
+
+    &--remark {
       @include tittle;
       @include align;
       justify-content: center;
     }
-    &--rectangle{
+
+    &--rectangle {
       position: absolute;
       padding: 0 0 0 1200px;
       margin: -90px 0 0 0;
     }
-    &--find{
+
+    &--find {
       @include tittle2;
       padding: 200px 0 0 0;
     }
-    &--img2{
+
+    &--img2 {
       padding: 0 0 0 430px;
       position: absolute;
     }
-    &--img3{
+
+    &--img3 {
       padding: 40px 0 0 600px;
     }
-    &--img4{
+
+    &--img4 {
       position: absolute;
       margin: -450px 0 0 1100px;
     }
-    &--sponsors{
+
+    &--sponsors {
       @include align;
       padding: 150px 0 0 0;
       justify-content: space-between;
-      &__base{
+
+      &__base {
         @include base
       }
-      &__bin{
+
+      &__bin {
         @include align;
-        &--binance{
+
+        &--binance {
           @include base
         }
       }
-      &__revolut{
+
+      &__revolut {
         @include base
       }
-      &__trans{
+
+      &__trans {
         @include align;
-        &--tittle{
+
+        &--tittle {
           @include base;
           margin: 0 0 0 -40px;
         }
       }
-      &__meta{
+
+      &__meta {
         @include align;
-        &--metamask{
+
+        &--metamask {
           @include base
         }
       }
     }
-    &--images{
+
+    &--images {
       @include align;
       justify-content: space-between;
       padding: 20px 0 0 0;
     }
-    &--rectangle7{
+
+    &--rectangle7 {
       position: absolute;
       padding: 260px 0 0 130px;
     }
-    &--rectangle8{
+
+    &--rectangle8 {
       position: absolute;
       padding: 400px 0 0 300px;
     }
-    &--star5{
+
+    &--star5 {
       color: #EEB563;
       font-size: 60px;
       padding: 180px 0 0 300px;
     }
   }
 }
-#slider{
+
+#slider {
   background: #15141A;
   padding: 0 0 100px 0;
-  .collection{
-    &--stuff{
+
+  .collection {
+    &--stuff {
       @include align;
       padding: 0 0 50px 0;
       flex-direction: column;
-      &__tittle{
+
+      &__tittle {
         @include align;
-        &--text{
+
+        &--text {
           @include white
         }
-        &--star{
+
+        &--star {
           @include white
         }
       }
-      &__tittle2{
+
+      &__tittle2 {
         @include tittle3
       }
     }
+
     .swiper {
       width: 100%;
       height: 100%;
@@ -399,20 +433,23 @@
       font-size: 18px;
       background: #fff;
       border-radius: 30px;
-      &__street{
+
+      &__street {
         position: absolute;
         font-size: 29px;
         color: white;
         padding: 280px 0 0 0;
       }
-      &__tittle{
+
+      &__tittle {
         position: absolute;
         font-size: 16px;
         color: white;
         text-align: center;
         padding: 350px 0 0 0;
       }
-      &__btn{
+
+      &__btn {
         position: absolute;
         color: white;
         background: #FE8B46;
@@ -500,6 +537,168 @@
 
       }
 
+
+
+#monkeys {
+  background: #15141A;
+  padding: 0 0 10% 0;
+  font-family: 'Inter', sans-serif;
+
+  .monkeys {
+    &--item {
+      padding: 0 0 10% 0;
+
+      &__as {
+        position: absolute;
+        margin: 5% 0 0 5%;
+        @include as;
+      }
+
+      &__star {
+        position: absolute;
+        margin: 0 0 0 30%;
+        @include star;
+      }
+
+      &__long {
+        position: absolute;
+        margin: 0 0 0 950px;
+        @include circles;
+        border: solid 2px #F4BF00;
+
+      }
+
+      &__block {
+        position: absolute;
+        @include circles;
+        border: solid 2px #FE67EF;
+        margin: 5% 0 0 80%;
+      }
+    }
+
+    &--discover {
+      @include flex;
+
+      &__stuff {
+        color: #F1B864;
+        font-size: 20px;
+        @include flex;
+      }
+
+      &__fames {
+        color: white;
+        font-size: 32px;
+        @include flex;
+
+      }
+    }
+
+    &--btn {
+      @include between;
+      padding: 50px 0 100px 0;
+
+      &__btnt {
+        @include btnns;
+        @include btnt;
+        @include arond;
+        width: 231px;
+        height: 58px;
+        border-radius: 14px;
+
+      }
+
+      &__btnt:hover {
+        background: #FE8B46;
+        color: #15141A;
+        width: 220px;
+        height: 80px;
+      }
+
+      &__btns {
+        @include btnse;
+        @include btnns;
+      }
+
+      &__btns:hover {
+        background: #15141A;
+        color: #FE8B46;
+        width: 220px;
+        height: 80px;
+      }
+
+    }
+
+    &--clone {
+      @include grid;
+
+      &__moro {
+        margin: 5% 0 5% 0;
+        color: $color;
+        @include moro;
+
+        &--bored {
+          @include between;
+
+          &__ape {
+            display: flex;
+            width: 70%;
+
+            &--image {
+              margin: 0 0 0 8%;
+            }
+          }
+
+          &__price {
+            &--number {
+              color: #FEAE51;
+              font-size: 20px;
+              @include between;
+
+            }
+          }
+
+        }
+
+        &--line {
+          width: 90%;
+          margin: 15% 0 0 5%;
+          border: 1px solid #A0A0A0;
+
+        }
+
+        &--img {
+          padding: 13px 0 0 13px;
+
+        }
+
+        &--diamonds {
+          margin: 5% 2% 0 10%;
+          @include between;
+
+          &__hot {
+            font-size: 17px;
+            display: flex;
+          }
+        }
+      }
+    }
+
+    &--btnEnd {
+      @include just;
+   margin: 5% 0 0 0;
+      &__btnl {
+        @include btnt;
+        width: 161px;
+        height: 46px;
+        border-radius: 36px;
+        @include btnns;
+      }
+
+    &__star{
+  padding: 10% 70% 0 0 ;
+      position: absolute;
+      @include btnns;
+    }
     }
   }
 }
