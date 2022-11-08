@@ -53,6 +53,15 @@ a{
   border-radius: 30px;
   margin: 0 0 0 1000px;
 }
+
+@mixin df{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgba(255, 255, 255, 0.58);
+
+
+}
 @mixin h2{
   font-weight: 500;
   font-size: 14px;

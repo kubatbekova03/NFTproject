@@ -159,6 +159,13 @@ a {
 #drop {
   background: #15141A;
 }
+#drop .drop p {
+  color: white;
+  padding: 20px 0;
+}
+#drop .drop--inpoot {
+  color: white;
+}
 #drop .drop--gloom {
   display: flex;
   justify-content: space-between;
@@ -181,7 +188,7 @@ a {
   width: 40%;
 }
 #drop .drop--gloom__every {
-  width: 1090px;
+  width: 1210px;
   border: 1px solid #727272;
 }
 
@@ -200,21 +207,40 @@ a {
   transform: rotate(-90deg);
 }
 #live .live--button1 {
-  padding: 0 200px 900px 0;
+  padding: 0 200px 90px 0;
 }
-#live .live--button1__window {
+#live .live--button1__btn {
+  display: flex;
+  justify-content: center;
+}
+#live .live--button1__btn--window {
+  background: transparent;
+  color: #FFFFFF;
   border-radius: 129px;
   width: 163px;
   height: 64px;
+  border: 1px solid #FFFFFF;
 }
 #live .live--button1__java {
   width: 32px;
   height: 31px;
   border-radius: 39px;
 }
+#live .live--button1__pimple {
+  width: 32px;
+  height: 31px;
+  border-radius: 30px;
+  display: flex;
+  margin: 0 0 0 300px;
+}
 #live .live h1 {
   color: white;
   padding: 0 0 0 200px;
+}
+#live .live--malling__stay {
+  display: flex;
+  justify-content: space-between;
+  color: white;
 }
 
 #discover {
@@ -435,6 +461,56 @@ a {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+#footer {
+  background: #15141A;
+}
+#footer .footer--importend {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  line-height: 40px;
+  font-size: 30px;
+}
+#footer .footer--importend__sleep {
+  width: 301.19px;
+  height: 96px;
+  font-size: 54px;
+}
+#footer .footer--importend__say input {
+  width: 287px;
+  height: 44px;
+  padding-left: 10px;
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 6px;
+  margin-top: 20px;
+}
+#footer .footer--smart {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgba(255, 255, 255, 0.58);
+}
+#footer .footer--smart__icons {
+  padding: 0 0 0 100px;
+}
+#footer .footer--smart__icons a {
+  color: white;
+  font-size: 30px;
+  padding: 0 10px 0 0;
+}
+#footer .footer--smart__emil1 {
+  display: flex;
+  align-items: center;
+  padding: 30px 0 0 500px;
+}
+#footer .footer--smart__emil1--book1 {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  margin: 0 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
