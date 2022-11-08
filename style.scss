@@ -52,6 +52,195 @@
     }
   }
 }
+#center {
+  background: #15141A;
+
+  .center {
+    padding: 100px 0 0 0;
+
+    &--circle {
+      @include center
+    }
+
+    h5 {
+      @include five
+    }
+
+    &--color {
+      @include one
+    }
+
+    hr {
+      @include hr
+    }
+
+    &--obliged {
+      position: relative;
+      display: flex;
+      justify-content: center;
+
+      &__five {
+        width: 997px;
+        height: 536px;
+      }
+
+      &__foo {
+        position: absolute;
+        width: 724px;
+        height: 536px;
+        padding: 0 280px 0 0;
+      }
+
+      h1 {
+        position: absolute;
+        font-weight: 600;
+        font-size: 52px;
+        color: #FFFFFF;
+        top: 65%;
+        left: 10%;
+      }
+    }
+  }
+
+  h4 {
+    padding: 30px 0 0 100px;
+    color: #FFFFFF
+  }
+}
+#article {
+  background: #15141A;
+
+  .article {
+    &--metamask {
+      text-align: center;
+
+      h4 {
+        font-weight: 500;
+        font-size: 24px;
+        color: #F1B864;
+      }
+
+      h1 {
+        font-weight: 500;
+        font-size: 40px;
+        color: #FFFFFF;
+
+      }
+    }
+
+    &--family {
+      display: flex;
+      justify-content: space-between;
+
+      h2 {
+        @include h2
+      }
+    }
+
+    details {
+      width: 300px;
+      border: 1px solid white;
+      padding: 10px 30px;
+    }
+  }
+}
+#drop {
+  background: #15141A;
+  .drop {
+    p{
+      color: white;
+      padding: 20px 0;
+    }
+    &--inpoot{
+      color: white;
+    }
+    &--gloom {
+      display: flex;
+      justify-content: space-between;
+      color: white;
+      &__set {
+        font-weight: 500;
+        font-size: 20px;
+        color: #FFFFFF;
+        }
+
+      &__mask {
+        font-weight: 500;
+        font-size: 32px;
+        color: #FFFFFF;
+      }
+
+      &__day {
+        font-weight: 500;
+        font-size: 16px;
+        color: #FFFFFF;
+        width: 40%;
+      }
+
+
+      &__every {
+        width: 1210px;
+        border: 1px solid #727272;
+      }
+    }
+  }
+}
+#live {
+  background: #15141A;
+  .live {
+    &--nature {
+      display: flex;
+      justify-content: space-around;
+      padding: 130px 220px 0 0 ;
+      &__forget {
+        width: 173px;
+        height: 58px;
+        border-radius: 211px;
+        transform: rotate(-90deg);
+      }
+    }
+    &--button1 {
+      padding: 0 200px 90px 0;
+      &__btn{
+        display: flex;
+        justify-content: center;
+        &--window {
+          background: transparent;
+          color: #FFFFFF;
+          border-radius: 129px;
+          width: 163px;
+          height: 64px;
+          border: 1px solid #FFFFFF;
+        }
+      }
+      &__java{
+        width: 32px;
+        height: 31px;
+        border-radius: 39px;
+
+      }
+      &__pimple{
+        width: 32px;
+        height: 31px;
+        border-radius: 30px;
+        display: flex;
+        margin: 0 0 0 300px;
+      }
+    }
+    h1{
+      @include ash1
+    }
+    &--malling{
+      &__stay{
+        display: flex;
+        justify-content: space-between;
+        color: white;
+      }
+    }
+
+
+  }
+}
 
 #discover {
   background: #15141A;
@@ -294,6 +483,61 @@
     }
   }
 }
+#footer{
+  background: #15141A;
+
+  .footer{
+    &--importend{
+      display: flex;
+      justify-content: space-between;
+      color: white;
+      line-height: 40px;
+      font-size: 30px;
+      &__sleep{
+        width: 301.19px;
+        height: 96px;
+        font-size: 54px;
+      }
+      &__may{
+
+      }
+      &__say{
+        input {
+          width: 287px;
+          height: 44px;
+          padding-left: 10px;
+          background: transparent;
+          color: white;
+          border: 1px solid white;
+          border-radius: 6px;
+          margin-top: 20px;
+        }
+      }
+    }
+    &--smart{
+      &__icons{
+        padding: 0 0 0 100px;
+      a{
+        color: white;
+        font-size: 30px;
+        padding: 0 10px 0 0
+      }
+      }
+      @include df;
+      &__emil1{
+        display: flex;
+        align-items: center;
+        padding: 30px 0 0 500px;
+        &--book1{
+          font-family: 'Roboto',sans-serif;
+          color: white;
+          margin: 0 10px;
+        }
+
+
+      }
+
+
 
 #monkeys {
   background: #15141A;

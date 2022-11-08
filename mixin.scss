@@ -32,6 +32,52 @@ a {
   font-size: 96px;
   color: white;
 }
+@mixin center{
+  width: 199px;
+  height: 47px;
+  left: 85px;
+  top: 5213px;
+  border: 1px solid #A7A7A7;
+  border-radius: 39px;
+}
+@mixin five{
+  font-weight: 500;
+  font-size: 24px;
+  color: #F1B864;
+  text-align: center;
+}
+@mixin one{
+  font-weight: 500;
+  font-size: 40px;
+  color: #FFFFFF;
+  text-align: center;
+}
+@mixin hr{
+  width: 32px;
+  height: 31px;
+  border-radius: 30px;
+  margin: 0 0 0 1000px;
+}
+
+@mixin df{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgba(255, 255, 255, 0.58);
+
+
+}
+@mixin h2{
+  font-weight: 500;
+  font-size: 14px;
+  color: #D29C10;
+  padding: 30px;
+}
+@mixin ash1 {
+  color: white;
+  padding: 0 0 0 200px;
+}
+@mixin tittle2{
 
 @mixin tittle2 {
   font-size: 16px;
