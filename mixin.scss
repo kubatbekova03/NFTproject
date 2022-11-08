@@ -59,7 +59,24 @@ a{
   color: #D29C10;
   padding: 30px;
 }
-@mixin ash1{
+@mixin ash1 {
   color: white;
   padding: 0 0 0 200px;
+}
+@mixin tittle2{
+  font-size: 16px;
+  color: white;
+}
+@mixin base{
+  font-size: 35px;
+  color: white;
+}
+@mixin white{
+  font-size: 20px;
+  color: #F1B864;
+}
+@mixin tittle3{
+  font-size: 32px;
+  color: white;
+  text-align: center;
 }
