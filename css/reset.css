@@ -226,5 +226,113 @@
     padding: 3px 12px;
   }
 }
+@media (max-width: 576px) {
+  #header .searcher--tittle {
+    font-size: 16px;
+  }
+  #header .searcher--tittle span {
+    font-size: 20px;
+  }
+  #header .searcher--star {
+    padding: 0 0 12px 70px;
+  }
+  #header .searcher--input {
+    margin: 0 0 0 39px;
+    width: 110px;
+    height: 30px;
+  }
+  #header .searcher--search {
+    padding: 0 0 0 232px;
+  }
+  #header .searcher--menu__a {
+    padding: 0 5px;
+    font-size: 11px;
+  }
+  #discover .discover--tittle {
+    font-size: 16px;
+  }
+  #discover .discover--star1 {
+    padding: 0 0 0 480px;
+  }
+  #discover .discover--tittle1 {
+    padding: 20px 0 0 28px;
+  }
+  #discover .discover--star2 {
+    padding: 0 0 0 50px;
+  }
+  #discover .discover--tittle2 {
+    padding: 20px 0 0 130px;
+  }
+  #discover .discover--tittle2__sell {
+    font-size: 30px;
+  }
+  #discover .discover--star4 {
+    margin: -40px 0 0 100px;
+  }
+  #discover .discover--star3 {
+    margin: -50px 0 0 500px;
+  }
+  #discover .discover--remark {
+    font-size: 40px;
+    padding: 10px 0 0 0;
+  }
+  #discover .discover--rectangle {
+    display: none;
+  }
+  #discover .discover--img4 {
+    display: none;
+  }
+  #discover .discover--rectangle7 {
+    display: none;
+  }
+  #discover .discover--star {
+    display: none;
+  }
+  #discover .discover--find {
+    font-size: 14px;
+  }
+  #discover .discover--img2 {
+    width: 270px;
+    height: 450px;
+    padding: 0 0 0 125px;
+  }
+  #discover .discover--img3 {
+    width: 275px;
+    height: 410px;
+    padding: 18px 0 0 170px;
+  }
+  #discover .discover--sponsors {
+    padding: 50px 0 0 0;
+  }
+  #discover .discover--sponsors__base {
+    font-size: 16px;
+  }
+  #discover .discover--sponsors__bin--binance {
+    font-size: 16px;
+  }
+  #discover .discover--sponsors__revolut {
+    font-size: 16px;
+  }
+  #discover .discover--sponsors__trans {
+    padding: 0 10px 0 0;
+  }
+  #discover .discover--sponsors__trans--tittle {
+    font-size: 16px;
+  }
+  #discover .discover--sponsors__meta--img {
+    width: 30px;
+    height: 30px;
+  }
+  #discover .discover--sponsors__meta--metamask {
+    font-size: 16px;
+  }
+  #discover .discover--images__img {
+    width: 162px;
+    height: 17px;
+  }
+  #discover .discover--star5 {
+    display: none;
+  }
+}
 
 /*# sourceMappingURL=reset.css.map */
