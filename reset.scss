@@ -163,14 +163,11 @@
     }
   }
 }
+
 @media (max-width: 992px) {
   #discover {
     .discover {
       &--img4 {
-@media (max-width: 992px) {
-  #discover{
-    .discover{
-      &--img4{
         margin: -450px 0 0 840px;
       }
     }
@@ -204,26 +201,6 @@
         padding: 0 35px 0 15px;
 
         &__a {
-  #header{
-    .searcher{
-      &--tittle{
-        font-size: 22px;
-        span{
-          font-size: 30px;
-        }
-      }
-      &--star{
-        padding: 0 0 12px 100px;
-      }
-      &--input{
-        padding: 0 20px;
-      }
-      &--search{
-        padding: 0 0 0 333px;
-      }
-      &--menu{
-        padding: 0 35px 0 15px;
-        &__a{
           padding: 0 7px;
           font-size: 12px;
         }
@@ -261,55 +238,30 @@
 
         &__meta {
           &--metamask {
-  #discover{
-    .discover{
-      &--star5{
-        padding: 80px 0 0 270px;
-      }
-      &--sponsors{
-        padding: 30px 0 0 0;
-        &__base{
-          font-size: 20px;
-        }
-        &__bin{
-          &--binance{
-            font-size: 20px;
-          }
-        }
-        &__revolut{
-          font-size: 20px;
-        }
-        &__trans{
-          &--tittle{
-            font-size: 20px;
-          }
-        }
-        &__meta{
-          &--metamask{
             font-size: 20px;
           }
         }
       }
+
       &--images {
         &__img {
-        &--images{
-        &__img{
           width: 170px;
           height: 22px;
         }
       }
+
       &--img2 {
-      &--img2{
         padding: 0 0 0 170px;
         width: 320px;
         height: 490px;
       }
+
       &--img3 {
-      &--img3{
         padding: 18px 0 0 210px;
         width: 320px;
         height: 450px;
       }
+
       &--rectangle7 {
         padding: 100px 0 0 10px;
       }
@@ -352,38 +304,6 @@
         }
 
         &__img {
-      &--rectangle7{
-        padding: 100px 0 0 10px;
-      }
-      &--rectangle8{
-        display: none;
-      }
-      &--img4{
-        margin: -450px 0 0 600px;
-      }
-      &--star3{
-        margin: -100px 0 0 650px;
-      }
-      &--rectangle{
-        padding: 0 0 0 600px;
-      }
-      &--remark{
-        font-size: 42px;
-      }
-      &--star4{
-      margin: -40px 0 0 160px
-    }
-      &--star1{
-        padding: 0 0 0 580px;
-      }
-      &--tittle1{
-        &__cover{
-          font-size: 42px;
-        }
-        &__collect{
-          font-size: 42px;
-        }
-        &__img{
           width: 150px;
           height: 55px;
         }
@@ -397,12 +317,6 @@
         }
 
         &__img {
-      &--tittle2{
-        padding: 20px 0 0 175px;
-        &__sell{
-          font-size: 38px;
-        }
-        &__img{
           width: 180px;
           height: 45px;
         }
@@ -423,18 +337,6 @@
         }
 
         &__btn {
-  #slider{
-    .collection{
-      .swiper-slide{
-        &__street{
-          font-size: 20px;
-          padding: 150px 0 0 0;
-        }
-        &__tittle{
-          font-size: 10px;
-          padding: 200px 0 0 0;
-        }
-        &__btn{
           margin: 250px 0 0 140px;
           padding: 3px 12px;
         }
@@ -598,12 +500,28 @@
   }
   #slider {
     .collection {
+      .swiper-slide {
+        &__street {
+          font-size: 17px;
+          padding: 100px 0 0 0;
+        }
 
+        &__tittle {
+          font-size: 8px;
+          padding: 140px 0 0 0;
+        }
+
+        &__btn {
+          margin: 185px 0 0 100px;
+          padding: 1px 8px;
+        }
+      }
     }
   }
 }
 
 @media (max-width: 450px) {
+
 }
 
 @media (max-width: 414px) {

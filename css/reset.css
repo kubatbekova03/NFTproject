@@ -333,4 +333,18 @@
   #discover .discover--star5 {
     display: none;
   }
+  #slider .collection .swiper-slide__street {
+    font-size: 17px;
+    padding: 100px 0 0 0;
+  }
+  #slider .collection .swiper-slide__tittle {
+    font-size: 8px;
+    padding: 140px 0 0 0;
+  }
+  #slider .collection .swiper-slide__btn {
+    margin: 185px 0 0 100px;
+    padding: 1px 8px;
+  }
 }
+
+/*# sourceMappingURL=reset.css.map */
